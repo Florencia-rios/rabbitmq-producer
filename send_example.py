@@ -3,7 +3,7 @@ import pika
 import sys
 
 
-def send():
+def send_example():
 
     credentials = pika.PlainCredentials('flor-rabbit', 'flor1234')
     connection = pika.BlockingConnection(pika.ConnectionParameters('localhost', credentials=credentials))

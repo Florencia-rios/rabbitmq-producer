@@ -1,13 +1,11 @@
 import os
 import sys
 
-from receive_consumer_2 import consume
-from send import send
+from send_example import send_example
 
 if __name__ == '__main__':
     try:
-        consume()
-        send()
+        send_example()
     except KeyboardInterrupt:
         print('Interrupted')
         try:
