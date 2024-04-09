@@ -54,7 +54,7 @@ def send_example():
 
 if __name__ == '__main__':
     try:
-        send()
+        send_example()
     except KeyboardInterrupt:
         print('Interrupted')
         try:
