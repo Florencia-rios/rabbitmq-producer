@@ -11,15 +11,16 @@ Para esto, se puede descargar homebrew y luego ejecutar:
  
 * Hay que instalar RabbitMQ
 https://www.rabbitmq.com/docs/install-homebrew <br>
-RabbitMQ da dos opciones al terminar de instalarlo:
-Que se corra en segundo plano como servicio automáticamente con el comando:
+RabbitMQ da dos opciones al terminar de instalarlo:<br>
+
+Correrlo en segundo plano como servicio automáticamente con el comando:
 
 
   ```
   brew services start rabbitmq
   ```
 
-Que lo corramos a mano con el comando:
+Correrlo a mano con el comando:
 
   ```
 CONF_ENV_FILE="/usr/local/etc/rabbitmq/rabbitmq-env.conf" /usr/local/opt/rabbitmq/sbin/rabbitmq-server
@@ -42,6 +43,18 @@ https://hub.docker.com/_/rabbitmq/
 
 Requisito: tener java
 
-a) brew install jmeter
+```
+brew install jmeter
+```
 
-b) Verificar instalación: jmeter -v
+2. Verificar instalación:
+   
+```
+jmeter -v
+```
+
+3. Abrir el archivo dentro de la carpeta ***Jmeter***
+
+4. Levantar en local los archivos main.py del proyecto [rabbitmq-consumer](https://github.com/Florencia-rios/rabbitmq-consumer/tree/develop) y endpoint.py de éste proyecto
+
+5. Ejecutar el test de Jmeter
