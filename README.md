@@ -53,4 +53,4 @@ brew install jmeter
 jmeter -v
 ```
 
-3. Abrir el archivo dentro de la carpeta ***Jmeter***
+3. Abrir el archivo dentro de la carpeta ***Jmeter*** y ejecutarlo
