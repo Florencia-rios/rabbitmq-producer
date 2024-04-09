@@ -16,7 +16,7 @@ def send_to_jobs_service_from_ocr():
 
     # la routing key se establece como una cadena vacía ''. Esto significa que cualquier mensaje enviado al intercambio
     # main_exchange será enrutado directamente a la cola main_queue
-    channel.queue_bind(exchange='jobs_with_task_finished_exchange', queue='jobs', routing_key='')
+    channel.queue_bind(exchange='jobs_with_task_finished_exchange', queue='jobs_with_task_finished', routing_key='')
 
     # Publica un nuevo mensaje
     channel.basic_publish(exchange='jobs_with_task_finished_exchange',
