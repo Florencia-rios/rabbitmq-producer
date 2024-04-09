@@ -53,4 +53,8 @@ brew install jmeter
 jmeter -v
 ```
 
-3. Abrir el archivo dentro de la carpeta ***Jmeter*** y ejecutarlo
+3. Abrir el archivo dentro de la carpeta ***Jmeter***
+
+4. Levantar en local los archivos main.py del proyecto [rabbitmq-consumer](https://github.com/Florencia-rios/rabbitmq-consumer/tree/develop) y endpoint.py de éste proyecto
+
+5. Ejecutar el test de Jmeter
