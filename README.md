@@ -47,8 +47,10 @@ Requisito: tener java
 brew install jmeter
 ```
 
-Verificar instalación:
+2. Verificar instalación:
    
 ```
 jmeter -v
 ```
+
+3. Abrir el archivo dentro de la carpeta ***Jmeter***
