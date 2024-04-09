@@ -50,6 +50,8 @@ def send():
 
     connection.close()
 
+    return " [x] Sent 'Hello World!'"
+
 if __name__ == '__main__':
     try:
         send()
