@@ -48,7 +48,8 @@ a)
 brew install jmeter
 ```
 
-b) Verificar instalación: 
+2. Verificar instalación:
+   
 ```
 jmeter -v
 ```
