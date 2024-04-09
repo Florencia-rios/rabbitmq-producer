@@ -43,12 +43,11 @@ https://hub.docker.com/_/rabbitmq/
 
 Requisito: tener java
 
-a) 
 ```
 brew install jmeter
 ```
 
-2. Verificar instalación:
+Verificar instalación:
    
 ```
 jmeter -v
